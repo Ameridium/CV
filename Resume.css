@@ -39,6 +39,13 @@ header {
     margin: 10px;
 }
 
+@media (max-width: 650px) {
+    .info {
+      display: block;
+      text-align: center;
+    }
+  }
+
 .info-text p {
     color: gray;
 }
@@ -136,6 +143,12 @@ display: flex;
     color: grey;
     margin-top: 20px;
 }
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+} 
 
 .form-group input, .form-group textarea {
     width: 100%;
